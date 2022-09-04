@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background: url("../assets/svgs/petadp-bg.svg") var(--primary-color) repeat-x center center;
 }
 
 .main {
