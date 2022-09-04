@@ -1,22 +1,18 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 const Home: NextPage = () => {
   return (
     <div className={`${styles.container} bg-primary`}>
-      <Head>
-        <title>Petadopt - React</title>
-        <meta name="description" content="Created by Ritcheyy" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet" />
-      </Head>
-
       <main className={styles.main}>
-        <h1 className={`${styles.title} font-medium`}>
+          <Player
+              autoplay
+              loop
+              src={require('../assets/lottie/pet.json')}
+              style={{ height: '200px', width: '200px' }}
+          ></Player>
+        <h1 className={`${styles.title} font-medium mt-5`}>
           Petadopt
         </h1>
 
