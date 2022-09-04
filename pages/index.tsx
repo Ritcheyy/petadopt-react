@@ -21,6 +21,10 @@ const Home: NextPage = () => {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
+        <p className="text-3xl font-bold underline">
+          Get started by editing{' '}
+          <code className={styles.code}>pages/index.tsx</code>
+        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
