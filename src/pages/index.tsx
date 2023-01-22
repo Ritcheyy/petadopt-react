@@ -1,5 +1,4 @@
 import { useEffect, useState, ReactElement } from "react";
-import type { NextPage } from "next";
 import Head from "next/head";
 import { NextPageWithLayout } from "./_app";
 import styles from "../styles/Home.module.css";
@@ -18,11 +17,11 @@ Home.getLayout = function getLayout(page: ReactElement) {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
-    }, 2000)
+    }, 1000)
   }, [])
 
   return (
-    <div className={`${styles.container} bg-primary`}>
+    <div className="h-full">
       <Head>
         <title>Petadopt - React</title>
       </Head>

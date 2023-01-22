@@ -5,10 +5,15 @@
 
 :root {
   --primary-color: #703EDB;
+  --grey-10: #D6D5D5;
+  --grey-20: #F2F2F2;
+  --grey-30: #F1F1F1;
+  --grey-40: #D7D6D6;
 }
 
 html,
 body {
+  @apply h-full;
   padding: 0;
   margin: 0;
   /*font-family: "Rubik", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
@@ -24,12 +29,16 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/*@media (prefers-color-scheme: dark) {*/
+/*  html {*/
+/*    color-scheme: dark;*/
+/*  }*/
+/*  body {*/
+/*    color: white;*/
+/*    background: black;*/
+/*  }*/
+/*}*/
+
+#__next {
+  @apply h-full;
 }
