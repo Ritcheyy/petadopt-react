@@ -5,6 +5,8 @@
 
 :root {
   --primary-color: #703EDB;
+  --auth-primary: #5D5FEF;
+  --auth-border: #7879F1;
   --grey-10: #D6D5D5;
   --grey-20: #F2F2F2;
   --grey-30: #F1F1F1;
@@ -41,4 +43,6 @@ a {
 
 #__next {
   @apply h-full;
+  display: flex;
+  justify-content: center;
 }

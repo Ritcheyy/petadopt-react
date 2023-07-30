@@ -1,7 +1,7 @@
 import { useEffect, useState, ReactElement } from "react";
 import Head from "next/head";
 import { NextPageWithLayout } from "./_app";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/home.module.css";
 import AppLoader from "../components/generic/AppLoader";
 import DefaultLayout from "../layouts/default";
 
