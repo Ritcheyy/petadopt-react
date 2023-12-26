@@ -1,12 +1,32 @@
-.leftEye {
+/*default position*/
+/*.leftEye {
     position: absolute;
     top: 55px;
     left: 136px;
 
+}*/
+
+/*.rightEye {
+    position: absolute;
+    top: 54px;
+    left: 166px;
+
+     position: absolute;
+    top: 55px;
+    left: 124px;
+}*/
+
+/*1st position*/
+.leftEye {
+    position: absolute;
+    top: 59px;
+    left: 127px;
+    /*top: 58.5px;
+    left: 133px;*/
 }
 
 .rightEye {
     position: absolute;
-    top: 54px;
-    left: 166px;
+    top: 60px;
+    left: 163px;
 }

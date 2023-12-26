@@ -43,6 +43,6 @@ a {
 
 #__next {
   @apply h-full;
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+  /*justify-content: center;*/
 }
