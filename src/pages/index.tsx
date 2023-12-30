@@ -4,13 +4,14 @@ import { NextPageWithLayout } from "../types/layout";
 import styles from "../styles/home.module.css";
 import AppLoader from "../components/generic/AppLoader";
 import DefaultLayout from "../layouts/default";
-import PetItem from "../components/Pets/PetItem";
+import Pets from "../components/Pets";
 
 const Home: NextPageWithLayout = () => {
   return (
     <>
-      <div>
-        <PetItem />
+      <div className="mb-12 h-1"></div>
+      <div className="2xl:w-10/12 w-11/12 m-auto">
+        <Pets />
       </div>
     </>
   )

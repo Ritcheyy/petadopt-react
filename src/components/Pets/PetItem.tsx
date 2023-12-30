@@ -6,7 +6,7 @@ import FavBtn from "./FavBtn";
 const PetItem: NextComponentType = () => {
   return (
     <div
-      className={styles.petItem}
+      className={`${styles.petItem} w-4/12 mb-10 mx-auto xl:mx-1 2xl:mx-3`}
       style={{ backgroundImage: `url(${DogImage.src})` }}
     >
       <FavBtn />
