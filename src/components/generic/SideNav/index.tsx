@@ -47,7 +47,7 @@ const SideNav: NextComponentType = () => {
     <aside className="h-full w-2/12 fixed top-0 bottom-0 bg-primary">
       <div className="mt-14 text-center">
         <Image width="95%" src={Logo} alt="App Logo" />
-        <h1 className="!text-3xl font-medium mt-5 text-white">Petadopt</h1>
+        <h1 className="!text-3xl font-medium mt-5 text-white">PetAdopt</h1>
       </div>
 
       <div className="pl-8 mt-20">

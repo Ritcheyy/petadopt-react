@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@dotlottie/react-player": "^1.6.12",
+    "@egjs/react-flicking": "^4.11.2",
     "@lottiefiles/react-lottie-player": "^3.4.7",
     "next": "12.2.5",
     "prop-types": "^15.8.1",

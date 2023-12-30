@@ -5,11 +5,12 @@ import styles from "../styles/home.module.css";
 import AppLoader from "../components/generic/AppLoader";
 import DefaultLayout from "../layouts/default";
 import Pets from "../components/Pets";
+import Categories from "../components/Categories";
 
 const Home: NextPageWithLayout = () => {
   return (
     <>
-      <div className="mb-12 h-1"></div>
+      <Categories />
       <div className="2xl:w-10/12 w-11/12 m-auto">
         <Pets />
       </div>
