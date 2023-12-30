@@ -46,11 +46,11 @@ const SideNav: NextComponentType = () => {
   return (
     <aside className="h-full w-2/12 fixed top-0 bottom-0 bg-primary">
       <div className="mt-14 text-center">
-        <Image src={Logo} alt="App Logo" />
-        <h1 className="!text-4xl font-medium mt-5 text-white">Petadopt</h1>
+        <Image width="95%" src={Logo} alt="App Logo" />
+        <h1 className="!text-3xl font-medium mt-5 text-white">Petadopt</h1>
       </div>
 
-      <div className="pl-8 mt-14">
+      <div className="pl-8 mt-20">
         {sideNavLinks.map((item) => (
           <Link href={item.link} key={item.name}>
             <div className="cursor-pointer flex items-center mb-8">

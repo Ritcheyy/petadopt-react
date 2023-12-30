@@ -4,9 +4,16 @@ import { NextPageWithLayout } from "../types/layout";
 import styles from "../styles/home.module.css";
 import AppLoader from "../components/generic/AppLoader";
 import DefaultLayout from "../layouts/default";
+import PetItem from "../components/Pets/PetItem";
 
 const Home: NextPageWithLayout = () => {
-  return <p>hello world</p>;
+  return (
+    <>
+      <div>
+        <PetItem />
+      </div>
+    </>
+  )
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {
